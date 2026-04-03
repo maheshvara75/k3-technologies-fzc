@@ -65,8 +65,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-white font-bold mb-1">Email Us</h4>
-                      <p className="text-white/50 text-sm">info@k3technologies.ae</p>
-                      <p className="text-white/50 text-sm">sales@k3technologies.ae</p>
+                      <p className="text-white/50 text-sm">info@k3-technologies.com</p>
                     </div>
                   </div>
 
@@ -139,7 +138,7 @@ export default function Contact() {
                           <input 
                             required
                             type="email" 
-                            placeholder="john@example.com"
+                            placeholder="info@k3-technologies.com"
                             className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-sm focus:border-primary outline-none transition-colors"
                             value={formData.email}
                             onChange={(e) => setFormData({...formData, email: e.target.value})}
