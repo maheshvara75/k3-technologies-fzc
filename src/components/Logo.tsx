@@ -18,10 +18,10 @@ export default function Logo({ className, showText = true }: LogoProps) {
           {/* Blue vertical part of K */}
           <rect x="15" y="15" width="18" height="70" fill="#004a80" />
           
-          {/* Blue diagonal parts of K - forming a chevron shape */}
+          {/* Orange diagonal parts of K - forming a chevron shape */}
           <path 
             d="M33 50 L75 15 L90 15 L48 50 L90 85 L75 85 Z" 
-            fill="#3b82f6" 
+            fill="#f15a24" 
           />
         </svg>
       </div>
@@ -30,7 +30,7 @@ export default function Logo({ className, showText = true }: LogoProps) {
         <div className="flex flex-col leading-none">
           <div className="flex items-baseline gap-2">
             <span className="text-2xl font-normal text-[#004a80] tracking-tight font-stencil">K3</span>
-            <span className="text-2xl font-normal text-[#3b82f6] tracking-tight font-stencil">TECHNOLOGIES</span>
+            <span className="text-2xl font-normal text-[#f15a24] tracking-tight font-stencil">TECHNOLOGIES</span>
           </div>
         </div>
       )}
