@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Black+Ops+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-stencil: "Black Ops One", system-ui, sans-serif;
+  
+  --color-primary: #f15a24; /* Vibrant Orange */
+  --color-secondary: #004a80; /* Deep Blue */
+  --color-accent: #f15a24;
+  --color-dark: #0A0A0A;
+  --color-dark-lighter: #1A1A1A;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+.glass-morphism {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.neon-glow {
+  box-shadow: 0 0 15px rgba(241, 90, 36, 0.3);
+}
+
+.neon-text {
+  @apply text-primary;
+  text-shadow: 0 0 10px rgba(241, 90, 36, 0.5);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full hover:bg-primary/50 transition-colors;
+}
