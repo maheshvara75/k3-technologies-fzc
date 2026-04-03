@@ -6,9 +6,9 @@
   --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-stencil: "Black Ops One", system-ui, sans-serif;
   
-  --color-primary: #f15a24; /* Vibrant Orange */
+  --color-primary: #3b82f6; /* Simple Sober Blue */
   --color-secondary: #004a80; /* Deep Blue */
-  --color-accent: #f15a24;
+  --color-accent: #3b82f6;
   --color-dark: #0A0A0A;
   --color-dark-lighter: #1A1A1A;
 }
@@ -28,12 +28,12 @@
 }
 
 .neon-glow {
-  box-shadow: 0 0 15px rgba(241, 90, 36, 0.3);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
 }
 
 .neon-text {
   @apply text-primary;
-  text-shadow: 0 0 10px rgba(241, 90, 36, 0.5);
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
 }
 
 /* Custom scrollbar */
