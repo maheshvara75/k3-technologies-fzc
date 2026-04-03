@@ -114,7 +114,7 @@ export default function Footer() {
                   <Mail className="w-5 h-5 text-primary" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-white/60 text-sm">info@k3technologies.ae</span>
+                  <span className="text-white/60 text-sm">info@k3-technologies.com</span>
                 </div>
               </li>
             </ul>
